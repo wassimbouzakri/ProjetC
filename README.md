@@ -7,3 +7,8 @@ This project consist in making a matches game.
 # Technologies
 
 - C
+
+# Authors
+
+- BOUZAKRI Wassim
+- Hakem Abdeldjebar
