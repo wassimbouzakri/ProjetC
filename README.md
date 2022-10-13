@@ -11,7 +11,7 @@ This project consist in making a matches game.
 
 # Technologies
 
-- C
+- <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"
 
 # Authors
 
