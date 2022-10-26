@@ -5,16 +5,16 @@ int menu()
 {
 
     int choice;
-    puts("/==================================/");
-    puts("         Jeu des allumettes         ");
-    puts("/==================================/ \n");
+    puts("\t \t \t \t \t \t \t \t /==================================/");
+    puts("\t \t \t \t \t \t \t \t       Jeu des allumettes         ");
+    puts("\t \t \t \t \t \t\t \t /==================================/ \n");
     puts("Bonjour et bienvenue dans le jeu des allumettes !! \n");
     puts("Vous allez avoir le choix entre 3 menus \n");
     puts("Vous choisirez le menu en tapant le chiffre correspondant \n");
     puts("Vous choisirez d'abord si vous voulez voir les regles du jeu ou non, puis vous choisirez le nombre d'allumettes que vous voulez \n");
     do
     {
-        puts("Que faire ? \n");
+        puts("\t Que faire ? \n");
         puts("1 - Jouer");
         puts("2 - Regles du jeu");
         puts("3 - Crédits");
