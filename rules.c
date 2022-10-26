@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void rules() {
+void rules()
+{
 
     printf("Ce jeu ce joue à deux. Vous avez un nombre de n d'allumettes.\n");
     printf("A tour de role, chacun des deux joueurs enleve entre 1 et 3 allumettes selon ce qu'il souhaite. Le perdant est celui qui enlevera la dernière allumette ! \n");

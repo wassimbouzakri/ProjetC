@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "rules.c"
+#include "gameMenu.c"
 
 int menu()
 {
@@ -27,6 +28,7 @@ int menu()
 
         case 1:
             puts("Vous avez choisi de jouer");
+            gameMenu();
             break;
 
         case 2:
