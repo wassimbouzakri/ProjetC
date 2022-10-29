@@ -13,7 +13,7 @@ int matches()
     // le joueur prend 1, 2 ou 3 allumettes
     int matches_taken;
     // le joueur gagne si il prend la dernière allumette
-    int winner;
+    int looser;
 
     // tant que le nombre d'allumettes est supérieur à 0
     while (matches > 0)
@@ -60,8 +60,8 @@ int matches()
         if (matches == 0)
         {
             // afficher un message
-            winner = (player == 1) ? 2 : 1;
-            printf("Joueur %d vous avez gagné ! \n", winner);
+            looser = (player == 1) ? 2 : 1;
+            printf("Joueur %d vous avez perdu :( \n", looser);
         }
     }
     return 0;

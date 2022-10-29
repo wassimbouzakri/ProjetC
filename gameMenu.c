@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "matches.c"
+#include "matchesRand.c"
 
 int gameMenu()
 {
@@ -27,6 +28,7 @@ int gameMenu()
 
         case 2:
             puts("Vous avez choisi de jouer contre le bot naif \n");
+            matchesRand();
             break;
 
         case 3:
