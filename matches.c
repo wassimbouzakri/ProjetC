@@ -18,8 +18,14 @@ int matches()
     // tant que le nombre d'allumettes est supérieur à 0
     while (matches > 0)
     {
+        // afficher les alummettes avec la forme |
+        for (int i = 0; i < matches; i++)
+        {
+            printf("|");
+        }
+
         // afficher le nombre d'allumettes restantes
-        printf("Il y a:  %d allumettes sur la table. ", matches);
+        printf("\n Il y a:  %d allumettes sur la table. ", matches);
         // demander au joueur combien d'allumettes il veut prendre
         printf("Joueur %d, combien d'allumettes voulez-vous prendre ? ", player);
         scanf("%d", &matches_taken);

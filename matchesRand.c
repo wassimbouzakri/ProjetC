@@ -2,5 +2,4 @@
 
 int matchesRand()
 {
-    return 0;
 }
