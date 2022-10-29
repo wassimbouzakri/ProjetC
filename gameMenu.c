@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "matches.c"
 
 int gameMenu()
 {
@@ -12,6 +13,7 @@ int gameMenu()
         puts("1 - mode humain");
         puts("2 - mode naif");
         puts("3 - mode expert");
+        puts("4 - quitter");
         printf("Votre choix : ");
         scanf("%d", &choice);
 
@@ -20,6 +22,7 @@ int gameMenu()
 
         case 1:
             puts("Vous avez choisi de jouer contre un humain");
+            matches();
             break;
 
         case 2:
@@ -30,10 +33,14 @@ int gameMenu()
             puts("Vous avez choisi de jouer contre l'imbattable");
             break;
 
+        case 4:
+            puts("Vous avez choisi de quitter le jeu");
+            break;
+
         default:
             puts("Vous n'avez pas choisi une option valide");
         }
-    } while (choice != 3);
+    } while (choice != 4);
 
     return 0;
 }
