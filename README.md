@@ -6,8 +6,8 @@ This project consist in making a matches game.
 
 # Installation
 
-- Clone the project
-- Open a terminal and run this commande : ```gcc main.c -o projetC && ./projetC```
+- Clone the project with this command : ```git clone git@github.com:wassimbouzakri/ProjetC.git```
+- Open a terminal and run this command : ```gcc main.c -o projetC && ./projetC```
 
 # Technologies
 
