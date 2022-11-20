@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "matches.c"
 #include "matchesRand.c"
+#include "matchesPro.c"
 
 int gameMenu()
 {
@@ -33,6 +34,7 @@ int gameMenu()
 
         case 3:
             puts("Vous avez choisi de jouer contre l'imbattable");
+            matchesPro();
             break;
 
         case 4:
