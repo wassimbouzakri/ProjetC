@@ -5,15 +5,18 @@
 
 int menu()
 {
-
     int choice;
-    puts("\t \t \t \t \t \t \t \t /==================================/");
-    puts("\t \t \t \t \t \t \t \t       Jeu des allumettes         ");
-    puts("\t \t \t \t \t \t\t \t /==================================/ \n");
-    puts("Bonjour et bienvenue dans le jeu des allumettes !! \n");
-    puts("Vous allez avoir le choix entre 3 menus \n");
-    puts("Vous choisirez le menu en tapant le chiffre correspondant \n");
-    puts("Vous choisirez d'abord si vous voulez voir les regles du jeu ou non, puis vous choisirez le nombre d'allumettes que vous voulez \n");
+
+    printf("\t\t\t\t\t \033[0;35m      _                  _                   _ _                      _            \n");
+    printf("\t\t\t\t\t \033[0;35m     | |                | |                 | | |                    | |           \n");
+    printf("\t\t\t\t\t \033[0;35m     | | ___ _   _    __| | ___  ___    __ _| | |_   _ _ __ ___   ___| |_ ___  ___ \n");
+    printf("\t\t\t\t\t \033[0;35m _   | |/ _ \\ | | |  / _` |/ _ \\/ __|  / _` | | | | | | '_ ` _ \\ / _ \\ __/ _ \\/ __|\n");
+    printf("\t\t\t\t\t \033[0;35m| |__| |  __/ |_| | | (_| |  __/\\__ \\ | (_| | | | |_| | | | | | |  __/ ||  __/\\__ \\\n");
+    printf("\t\t\t\t\t \033[0;35m \\____/ \\___|\\__,_|  \\__,_|\\___||___/  \\__,_|_|_|\\__,_|_| |_| |_|\\___|\\__\\___||___/ \n");
+    puts("\n\033[0;37mBonjour et bienvenue dans le jeu des allumettes !! \n");
+    puts("\033[0;37mVous allez avoir le choix entre 3 menus \n");
+    puts("\033[0;37mVous choisirez le menu en tapant le chiffre correspondant \n");
+    puts("\033[0;37mVous choisirez d'abord si vous voulez voir les regles du jeu ou non, puis vous choisirez le nombre d'allumettes que vous voulez \n");
     do
     {
         puts("\t \033[0;35m Que faire ? \n");
