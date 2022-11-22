@@ -16,12 +16,12 @@ int menu()
     puts("Vous choisirez d'abord si vous voulez voir les regles du jeu ou non, puis vous choisirez le nombre d'allumettes que vous voulez \n");
     do
     {
-        puts("\t Que faire ? \n");
-        puts("1 - Jouer");
-        puts("2 - Regles du jeu");
-        puts("3 - Crédits");
-        puts("4 - Quitter");
-        printf("Votre choix : ");
+        puts("\t \033[0;35m Que faire ? \n");
+        puts("\033[0;32m 1 - Jouer");
+        puts("\033[0;37m 2 - Regles du jeu");
+        puts("\033[0;33m 3 - Crédits");
+        puts("\033[0;31m 4 - Quitter");
+        printf("\033[0;37mVotre choix : ");
         scanf("%d", &choice);
 
         switch (choice)
